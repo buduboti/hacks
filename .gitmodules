@@ -19,3 +19,6 @@
 [submodule "lib/kali-wordlists"]
 	path = lib/kali-wordlists
 	url = git@github.com:00xBAD/kali-wordlists.git
+[submodule "tools/whatweb"]
+	path = tools/whatweb
+	url = git@github.com:urbanadventurer/WhatWeb.git
