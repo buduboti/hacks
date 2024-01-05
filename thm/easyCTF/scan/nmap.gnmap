@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Oct  7 10:44:25 2022 as: nmap -A -oA scan/nmap 10.10.79.255
+Host: 10.10.79.255 ()	Status: Up
+Host: 10.10.79.255 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 53/open/tcp//domain?///, 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 2222/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)/	Ignored State: filtered (996)
+# Nmap done at Fri Oct  7 10:46:14 2022 -- 1 IP address (1 host up) scanned in 109.47 seconds

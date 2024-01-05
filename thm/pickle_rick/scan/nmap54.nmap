@@ -1,0 +1,42 @@
+# Nmap 7.92 scan initiated Fri Oct  7 16:45:22 2022 as: nmap -A -oA scan/nmap54 54.246.5.175
+Nmap scan report for ec2-54-246-5-175.eu-west-1.compute.amazonaws.com (54.246.5.175)
+Host is up (0.060s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c5:fb:55:44:5a:04:5a:2a:66:0a:12:86:9f:20:0a:1c (RSA)
+|   256 92:98:91:e5:36:53:d9:59:fc:69:71:ad:45:65:23:d2 (ECDSA)
+|_  256 16:52:7c:f1:b3:89:24:2a:fc:c7:e9:68:de:33:eb:ca (ED25519)
+53/tcp   open  domain?
+80/tcp   open  http     nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Welcome to nginx!
+443/tcp  open  ssl/http nginx 1.14.0 (Ubuntu)
+| tls-nextprotoneg: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+| tls-alpn: 
+|_  http/1.1
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| ssl-cert: Subject: commonName=*.p.thmlabs.com
+| Subject Alternative Name: DNS:*.p.thmlabs.com
+| Not valid before: 2022-10-02T09:29:09
+|_Not valid after:  2022-12-31T09:29:08
+8443/tcp open  ssl/http nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| ssl-cert: Subject: commonName=*.p.thmlabs.com
+| Subject Alternative Name: DNS:*.p.thmlabs.com
+| Not valid before: 2022-10-02T09:29:09
+|_Not valid after:  2022-12-31T09:29:08
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct  7 16:47:41 2022 -- 1 IP address (1 host up) scanned in 139.16 seconds

@@ -1,0 +1,24 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-13 18:55 EET
+Nmap scan report for 10.10.133.164
+Host is up (0.052s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 ba61a52e1adbf17c9f0b8a6d44e6c19d (RSA)
+|   256 992148fdad36fa2090f9e1d926a4ecd2 (ECDSA)
+|_  256 13b8f4259d3b3ddcb65965a6de01b7e6 (ED25519)
+53/tcp   open  domain?
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+1234/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/7.0.88
+|_http-favicon: Apache Tomcat
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+|_ajp-methods: Failed to get a valid response for the OPTION request
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.30 seconds

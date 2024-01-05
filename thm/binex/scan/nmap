@@ -1,0 +1,37 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-08 15:17 EET
+Nmap scan report for 10.10.112.52
+Host is up (0.057s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3f36deda2fc3b7786fa925d641dd5469 (RSA)
+|   256 d07823eef37158aee9571417bbe36aae (ECDSA)
+|_  256 4cdef149df214f32cae68ebc6a9653e5 (ED25519)
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
+Service Info: Host: THM_EXPLOIT; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: THM_EXPLOIT, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
+|   Computer name: thm_exploit
+|   NetBIOS computer name: THM_EXPLOIT\x00
+|   Domain name: \x00
+|   FQDN: thm_exploit
+|_  System time: 2023-01-08T13:17:47+00:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2023-01-08T13:17:47
+|_  start_date: N/A
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 26.91 seconds

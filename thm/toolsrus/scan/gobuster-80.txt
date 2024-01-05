@@ -1,0 +1,4 @@
+http://10.10.133.164:80/.htaccess           [33m (Status: 403)[0m [Size: 297]
+http://10.10.133.164:80/protected           [33m (Status: 401)[0m [Size: 460]
+http://10.10.133.164:80/.htpasswd           [33m (Status: 403)[0m [Size: 297]
+http://10.10.133.164:80/.htpasswds          [33m (Status: 403)[0m [Size: 298]

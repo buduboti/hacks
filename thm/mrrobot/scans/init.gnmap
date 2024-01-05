@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Sep 28 18:39:56 2022 as: nmap -sV -sC -oA scans/init 10.10.111.199
+Host: 10.10.111.199 ()	Status: Up
+Host: 10.10.111.199 ()	Ports: 22/closed/tcp//ssh///, 53/open/tcp//domain?///, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (996)
+# Nmap done at Wed Sep 28 18:41:11 2022 -- 1 IP address (1 host up) scanned in 75.06 seconds

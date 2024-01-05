@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Tue Oct 11 19:44:46 2022 as: nmap -sC -sV -oA scan/nmap 10.10.195.140
+Nmap scan report for 10.10.195.140
+Host is up (0.061s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain?
+80/tcp open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Follow the white rabbit.
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 11 19:45:59 2022 -- 1 IP address (1 host up) scanned in 72.36 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Wed Sep 28 18:29:47 2022 as: nmap -sV -sC -oA . 10.9.159.52
+Host: 10.9.159.52 ()	Status: Up
+Host: 10.9.159.52 ()	Ports: 23/filtered/tcp//telnet///, 53/open/tcp//domain?///	Ignored State: closed (998)
+# Nmap done at Wed Sep 28 18:30:31 2022 -- 1 IP address (1 host up) scanned in 44.43 seconds

@@ -1,0 +1,6 @@
+http://10.10.212.219:8080/cgi-bin             [32m (Status: 200)[0m [Size: 610]
+http://10.10.212.219:8080/icons               [32m (Status: 200)[0m [Size: 739]
+http://10.10.212.219:8080/untitled folder     [31m (Status: 501)[0m [Size: 313]
+http://10.10.212.219:8080/index copy.php      [31m (Status: 501)[0m [Size: 313]
+http://10.10.212.219:8080/New Folder With Items[31m (Status: 501)[0m [Size: 313]
+http://10.10.212.219:8080/Copy of bi_common   [31m (Status: 501)[0m [Size: 313]

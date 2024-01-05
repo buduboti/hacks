@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Mon Dec 12 09:23:23 2022 as: nmap -sV -sC -oA scan/nmap.init 10.10.18.191
+Host: 10.10.18.191 ()	Status: Up
+Host: 10.10.18.191 ()	Ports: 53/open/tcp//domain?///, 80/open/tcp//http//Apache httpd 2.4.54 ((Debian))/	Ignored State: closed (998)
+# Nmap done at Mon Dec 12 09:23:48 2022 -- 1 IP address (1 host up) scanned in 24.71 seconds

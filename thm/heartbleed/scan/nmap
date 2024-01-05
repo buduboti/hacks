@@ -1,0 +1,7 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-13 18:23 EET
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 0 undergoing Script Pre-Scan
+NSE Timing: About 0.00% done
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Parallel DNS resolution of 1 host. Timing: About 0.00% done

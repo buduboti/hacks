@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Mon Dec 12 10:15:32 2022 as: nmap -n -sT -Pn -p 22,80,443,5432 -oA scan/proxychain 172.17.0.1
+Nmap scan report for 172.17.0.1
+Host is up (0.10s latency).
+
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+443/tcp  closed https
+5432/tcp closed postgresql
+
+# Nmap done at Mon Dec 12 10:15:32 2022 -- 1 IP address (1 host up) scanned in 0.52 seconds

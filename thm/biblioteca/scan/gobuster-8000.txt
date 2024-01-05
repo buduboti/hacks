@@ -1,0 +1,3 @@
+http://10.10.176.82:8000/login               [32m (Status: 200)[0m [Size: 856]
+http://10.10.176.82:8000/register            [32m (Status: 200)[0m [Size: 964]
+http://10.10.176.82:8000/logout              [32m (Status: 200)[0m [Size: 856]

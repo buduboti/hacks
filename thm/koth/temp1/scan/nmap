@@ -1,0 +1,64 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-10 18:11 EET
+Nmap scan report for 10.10.36.10
+Host is up (0.064s latency).
+Not shown: 992 closed tcp ports (conn-refused)
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        vsftpd 3.0.3
+22/tcp   open  ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3eae1887b8c335b63aaf0ea4c3a2ef13 (RSA)
+|   256 42cffe0dcb9224b98fdc11d410a7a03e (ECDSA)
+|_  256 5cfcbcc93a01b1b678ac663c348f222a (ED25519)
+53/tcp   open  domain?
+80/tcp   open  http       Apache httpd 2.4.29 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Wheel of Fortune!
+111/tcp  open  rpcbind    2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100003  3           2049/udp   nfs
+|   100003  3           2049/udp6  nfs
+|   100003  3,4         2049/tcp   nfs
+|   100003  3,4         2049/tcp6  nfs
+|   100005  1,2,3      43267/tcp6  mountd
+|   100005  1,2,3      51052/udp   mountd
+|   100005  1,2,3      51761/udp6  mountd
+|   100005  1,2,3      57453/tcp   mountd
+|   100021  1,3,4      34255/tcp   nlockmgr
+|   100021  1,3,4      46303/tcp6  nlockmgr
+|   100021  1,3,4      51738/udp   nlockmgr
+|   100021  1,3,4      59995/udp6  nlockmgr
+|   100227  3           2049/tcp   nfs_acl
+|   100227  3           2049/tcp6  nfs_acl
+|   100227  3           2049/udp   nfs_acl
+|_  100227  3           2049/udp6  nfs_acl
+2049/tcp open  nfs_acl    3 (RPC #100227)
+3333/tcp open  dec-notes?
+| fingerprint-strings: 
+|   NULL: 
+|     UEsDBAoACQAAAGKBalYjqU4VHwAAABMAAAAJABwAY3JlZHMudHh0VVQJAAOXVgtkl1YLZHV4CwAB
+|     BAAAAAAEAAAAABrneAMiKrkn5IG2ZjjaPprElqkA5j/oxwfNLq7+hqVQSwcII6lOFR8AAAATAAAA
+|     UEsBAh4DCgAJAAAAYoFqViOpThUfAAAAEwAAAAkAGAAAAAAAAQAAAKSBAAAAAGNyZWRzLnR4dFVU
+|_    BQADl1YLZHV4CwABBAAAAAAEAAAAAFBLBQYAAAAAAQABAE8AAAByAAAAAAA=
+9999/tcp open  http       Werkzeug httpd 1.0.1 (Python 3.6.9)
+|_http-server-header: Werkzeug/1.0.1 Python/3.6.9
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3333-TCP:V=7.93%I=7%D=3/10%Time=640B56BB%P=x86_64-apple-darwin21.5.
+SF:0%r(NULL,124,"UEsDBAoACQAAAGKBalYjqU4VHwAAABMAAAAJABwAY3JlZHMudHh0VVQJA
+SF:AOXVgtkl1YLZHV4CwAB\nBAAAAAAEAAAAABrneAMiKrkn5IG2ZjjaPprElqkA5j/oxwfNLq
+SF:7\+hqVQSwcII6lOFR8AAAATAAAA\nUEsBAh4DCgAJAAAAYoFqViOpThUfAAAAEwAAAAkAGA
+SF:AAAAAAAQAAAKSBAAAAAGNyZWRzLnR4dFVU\nBQADl1YLZHV4CwABBAAAAAAEAAAAAFBLBQY
+SF:AAAAAAQABAE8AAAByAAAAAAA=\n");
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.09 seconds
