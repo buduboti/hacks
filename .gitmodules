@@ -22,3 +22,9 @@
 [submodule "tools/whatweb"]
 	path = tools/whatweb
 	url = git@github.com:urbanadventurer/WhatWeb.git
+[submodule "tools/wafw00f"]
+	path = tools/wafw00f
+	url = git@github.com:EnableSecurity/wafw00f.git
+[submodule "tools/logrotten"]
+	path = tools/logrotten
+	url = https://github.com/whotwagner/logrotten.git
