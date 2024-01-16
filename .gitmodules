@@ -40,3 +40,6 @@
 [submodule "lib/CVE/CVE-2022-25636"]
 	path = lib/CVE/CVE-2022-25636
 	url = https://github.com/Bonfee/CVE-2022-25636.git
+[submodule "lib/CVE/CVE-2021-3156"]
+	path = lib/CVE/CVE-2021-3156
+	url = https://github.com/blasty/CVE-2021-3156.git
