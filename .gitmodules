@@ -28,3 +28,6 @@
 [submodule "tools/logrotten"]
 	path = tools/logrotten
 	url = https://github.com/whotwagner/logrotten.git
+[submodule "lib/CVE/CVE-2021-4034"]
+	path = lib/CVE/CVE-2021-4034
+	url = https://github.com/arthepsy/CVE-2021-4034.git
