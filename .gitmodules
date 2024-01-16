@@ -31,3 +31,12 @@
 [submodule "lib/CVE/CVE-2021-4034"]
 	path = lib/CVE/CVE-2021-4034
 	url = https://github.com/arthepsy/CVE-2021-4034.git
+[submodule "lib/CVE/CVE-2022-0847-DirtyPipe-Exploits"]
+	path = lib/CVE/CVE-2022-0847-DirtyPipe-Exploits
+	url = https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits.git
+[submodule "lib/CVE/CVE-2023-32233"]
+	path = lib/CVE/CVE-2023-32233
+	url = https://github.com/Liuk3r/CVE-2023-32233
+[submodule "lib/CVE/CVE-2022-25636"]
+	path = lib/CVE/CVE-2022-25636
+	url = https://github.com/Bonfee/CVE-2022-25636.git
