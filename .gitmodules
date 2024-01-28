@@ -43,3 +43,9 @@
 [submodule "lib/CVE/CVE-2021-3156"]
 	path = lib/CVE/CVE-2021-3156
 	url = https://github.com/blasty/CVE-2021-3156.git
+[submodule "tools/enum4linux-ng"]
+	path = tools/enum4linux-ng
+	url = https://github.com/cddmp/enum4linux-ng.git
+[submodule "lib/SecList"]
+	path = lib/SecList
+	url = git@github.com:danielmiessler/SecLists.git
