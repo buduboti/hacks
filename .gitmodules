@@ -49,3 +49,15 @@
 [submodule "lib/SecList"]
 	path = lib/SecList
 	url = git@github.com:danielmiessler/SecLists.git
+[submodule "tools/odat"]
+	path = tools/odat
+	url = https://github.com/quentinhardy/odat.git
+[submodule "tools/ssh-audit"]
+	path = tools/ssh-audit
+	url = https://github.com/jtesta/ssh-audit.git
+[submodule "tools/rdp-sec-check"]
+	path = tools/rdp-sec-check
+	url = git@github.com:CiscoCXSecurity/rdp-sec-check.git
+[submodule "tools/BlackEye"]
+	path = tools/BlackEye
+	url = git@github.com:EricksonAtHome/blackeye.git
