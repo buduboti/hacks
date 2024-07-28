@@ -19,6 +19,10 @@ TEXT_BOLD_MAGENTA='\033[1;35m'
 TEXT_BOLD_CYAN='\033[1;36m'
 TEXT_BOLD_WHITE='\033[1;37m'
 
+declare -a installments=(	"gobuster"
+							"nmap"
+							)
+
 if [ "$(uname)" == "Darwin" ]
 then
 	printf "$TEXT_CYAN[macOS]: $TEXT_DEFAULT\n"
@@ -31,11 +35,7 @@ then
 		exit 1
 	fi
 
-	declare -a brew_installments=(	"gobuster"
-									"nmap"
-									)
-
-	for p in "${brew_installments[@]}"
+	for p in "${installments[@]}"
 	do
 		printf "\t-$TEXT_BOLD_MAGENTA $p$TEXT_DEFAULT\n"
 		$BREW install $p
@@ -46,13 +46,9 @@ then
 	then
 		APT=$(which apt)
 
-		declare -a apt_installments=(	"gobuster"
-										"nmap"
-										)
-
 		$APT update
 
-		for p in "${apt_installments[@]}"
+		for p in "${installments[@]}"
 		do
 			printf "\t-$TEXT_BOLD_MAGENTA $p$TEXT_DEFAULT\n"
 			$APT install -y $p
