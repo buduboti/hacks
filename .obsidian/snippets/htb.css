@@ -1,0 +1,31 @@
+.markdown-preview-view code {
+	color: #9FEF00;
+}
+
+.markdown-source-view code {
+	color: #9FEF00;
+}
+
+.markdown-view code {
+	color: #9FEF00;
+}
+
+a:link {
+	text-decoration: none;
+	color: #007FEF;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #007FEF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #0064BD;
+}
