@@ -15,8 +15,8 @@
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": 5093.510726571326,
-                  "y": 223.9822604840021,
+                  "x": 5640.121235127443,
+                  "y": 214.76972382294397,
                   "zoom": -1.7233333333333287
                 }
               }
@@ -153,16 +153,44 @@
   },
   "active": "9357a0d41a4a59cb",
   "lastOpenFiles": [
+    "lib/SecList/Passwords/Common-Credentials/Language-Specific/README.md",
+    "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_common-usernames-and-passwords.txt",
+    "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_1000-common-usernames-and-passwords.txt",
+    "lib/SecList/Passwords/Common-Credentials/Language-Specific",
+    "lib/SecList/Fuzzing/XSS/robot-friendly/XSS-Fuzzing.txt",
+    "lib/SecList/Discovery/Web-Content/rssfeed-files.txt",
+    "lib/SecList/Discovery/DNS/services-names.txt",
+    "lib/SecList/Pattern-Matching/php-magic-hashes.txt",
+    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-ukranian-150.txt",
+    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-turkish-150.txt",
+    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-thai-150.txt",
+    "lib/SecList/Passwords/Pwdb-Public/README.md",
+    "lib/SecList/Passwords/PHP-Hashes/README.md",
+    "lib/SecList/Passwords/Default-Credentials/Routers/README.md",
+    "lib/SecList/Miscellaneous/Web/keyhacks-api.md",
+    "lib/SecList/Miscellaneous/Security-Question-Answers/url-to-download-books.md",
+    "lib/SecList/Miscellaneous/List-Of-Swear-Words/README.md",
+    "lib/SecList/Miscellaneous/Danish-Wordlists-n0kovo/README.md",
+    "lib/SecList/Fuzzing/XSS/robot-friendly/README.md",
+    "lib/SecList/Fuzzing/XSS/human-friendly/README.md",
+    "lib/SecList/Fuzzing/XSS/README.md",
+    "lib/SecList/Fuzzing/README.md",
+    "lib/SecList/Ai/LLM_Testing/README.md",
+    "lib/SecList/Miscellaneous/web/keyhacks-api.md",
+    "lib/SecList/Miscellaneous/security-question-answers/url-to-download-books.md",
+    "lib/SecList/Miscellaneous/n0kovo_danish-wordlists/README.md",
+    "lib/SecList/Miscellaneous/Moby-Project/README.md",
+    "lib/SecList/Miscellaneous/Moby-Project/Moby-Words-II/README.md",
+    "lib/SecList/Miscellaneous/Moby-Project/Moby-Thesaurus-II/README.md",
+    "lib/SecList/Miscellaneous/Moby-Project/Moby-Language-II/README.md",
+    "lib/SecList/Miscellaneous/EFF-Dice/README.md",
     "obs/pages/gobuster.md",
-    "obs/pages",
     "gobuster.md",
     "PenTestMap.canvas",
     "script/harvester.conf.md",
     "script/Untitled.md",
     "script/crt.sh.md",
-    "script",
     "Automation.canvas",
-    "PenTestMap 1.canvas",
-    "Untitled.md"
+    "PenTestMap 1.canvas"
   ]
 }
