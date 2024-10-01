@@ -15,9 +15,9 @@
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": -189.35999999999999,
-                  "y": -1607.079999999998,
-                  "zoom": 0
+                  "x": 5093.510726571326,
+                  "y": 223.9822604840021,
+                  "zoom": -1.7233333333333287
                 }
               }
             }
@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8c166575b9c688d0",
@@ -89,8 +90,8 @@
               "type": "backlink",
               "state": {
                 "file": "PenTestMap.canvas",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -132,7 +133,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,6 +153,9 @@
   },
   "active": "9357a0d41a4a59cb",
   "lastOpenFiles": [
+    "obs/pages/gobuster.md",
+    "obs/pages",
+    "gobuster.md",
     "PenTestMap.canvas",
     "script/harvester.conf.md",
     "script/Untitled.md",
