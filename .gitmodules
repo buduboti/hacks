@@ -73,3 +73,6 @@
 [submodule "tools/CyberChef"]
 	path = tools/CyberChef
 	url = git@github.com:gchq/CyberChef.git
+[submodule "tools/username-anarchy"]
+	path = tools/username-anarchy
+	url = https://github.com/urbanadventurer/username-anarchy.git
