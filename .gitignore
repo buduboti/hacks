@@ -2,3 +2,5 @@
 bh/
 cpts/
 *.swp
+
+.obsidian/workspace.json
