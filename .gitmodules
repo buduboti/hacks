@@ -61,3 +61,12 @@
 [submodule "tools/BlackEye"]
 	path = tools/BlackEye
 	url = git@github.com:EricksonAtHome/blackeye.git
+[submodule "lib/Payloads/PayloadsAllThePDFs"]
+	path = lib/Payloads/PayloadsAllThePDFs
+	url = git@github.com:luigigubello/PayloadsAllThePDFs.git
+[submodule "tools/social-engineer-toolkit"]
+	path = tools/social-engineer-toolkit
+	url = git@github.com:trustedsec/social-engineer-toolkit.git
+[submodule "tools/FinalRecon"]
+	path = tools/FinalRecon
+	url = https://github.com/thewhiteh4t/FinalRecon.git

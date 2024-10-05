@@ -31,4 +31,10 @@ fi
 
 mkdir ./scan 2>/dev/null
 
-sudo nmap -sS -sV -p- $IP | tee scan/nmap | tee /dev/tty | grep "http" --color=none | grep --color=none "^[0-9]*/" | cut -d'/' -f1 | xargs -I{} gobuster dir -e -q -r -k -w $GOBUSTER_WORDLIST -u http://$IP:{}/ -o scan/gobuster-{}.txt
+echo "##################################### TCP ######################################"
+
+sudo nmap -sS -sV -p- $IP | tee scan/nmap_TCP | tee /dev/tty | grep "http" --color=none | grep --color=none "^[0-9]*/" | cut -d'/' -f1 | xargs -I{} gobuster dir -e -q -r -k -w $GOBUSTER_WORDLIST -u http://$IP:{}/ -o scan/gobuster-{}.txt
+
+echo "##################################### UDP ######################################"
+
+sudo nmap -sU $IP | tee scan/nmap_UDP
