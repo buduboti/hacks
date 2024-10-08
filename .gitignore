@@ -5,3 +5,5 @@ cpts/
 *.swn
 *.swo
 .obsidian/workspace.json
+
+temp/
