@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e452955f47ad8058",
+        "id": "9ffa08996b82175e",
         "type": "tabs",
         "children": [
           {
-            "id": "f7cfe502429e628b",
+            "id": "e4161e01ba2da8c0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "PenTestMap.canvas",
-                "viewState": {
-                  "x": 2711.569684055841,
-                  "y": 1218.032916972813,
-                  "zoom": -2.5287605311624026
-                }
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -57,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -65,14 +64,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c71b2bfa0282c4ed",
@@ -88,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PenTestMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -105,10 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PenTestMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -119,7 +123,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,9 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PenTestMap.canvas"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -149,9 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7cfe502429e628b",
+  "active": "e4161e01ba2da8c0",
   "lastOpenFiles": [
-    "PenTestMap2.canvas",
-    "PenTestMap.canvas"
+    "PenTestMap.canvas",
+    "PenTestMap2.canvas"
   ]
 }
