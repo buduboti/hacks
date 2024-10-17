@@ -15,9 +15,9 @@
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": 5640.121235127443,
-                  "y": 214.76972382294397,
-                  "zoom": -1.7233333333333287
+                  "x": 2774.6563092733,
+                  "y": 1230.723406271653,
+                  "zoom": -2.019788999209803
                 }
               }
             }
@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c166575b9c688d0",
@@ -134,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,6 +152,7 @@
   },
   "active": "9357a0d41a4a59cb",
   "lastOpenFiles": [
+    "remote-tools/scripts/Invoke-AESEncryption.ps1",
     "lib/SecList/Passwords/Common-Credentials/Language-Specific/README.md",
     "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_common-usernames-and-passwords.txt",
     "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_1000-common-usernames-and-passwords.txt",
@@ -189,7 +189,6 @@
     "PenTestMap.canvas",
     "script/harvester.conf.md",
     "script/Untitled.md",
-    "script/crt.sh.md",
     "Automation.canvas",
     "PenTestMap 1.canvas"
   ]
