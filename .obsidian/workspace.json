@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1ab8250700fb2590",
+        "id": "bfa1c025c38bee8e",
         "type": "tabs",
         "children": [
           {
-            "id": "9357a0d41a4a59cb",
+            "id": "03511bd45c1b5c9c",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": -189.35999999999999,
-                  "y": -1607.079999999998,
-                  "zoom": 0
+                  "x": 743.5,
+                  "y": -70,
+                  "zoom": -3.4433568557792262
                 }
               }
             }
@@ -149,9 +149,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9357a0d41a4a59cb",
+  "active": "03511bd45c1b5c9c",
   "lastOpenFiles": [
     "PenTestMap.canvas",
+    "requirements.sh",
     "script/harvester.conf.md",
     "script/Untitled.md",
     "script/crt.sh.md",
