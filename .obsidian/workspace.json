@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "3cf8e5a5c0a6dbad",
+    "id": "569853e5e4e63367",
     "type": "split",
     "children": [
       {
-        "id": "1ab8250700fb2590",
+        "id": "9ffa08996b82175e",
         "type": "tabs",
         "children": [
           {
-            "id": "9357a0d41a4a59cb",
+            "id": "e4161e01ba2da8c0",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -28,25 +28,27 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "00dbbd955b1745f8",
+    "id": "3dd9eac8587cc3df",
     "type": "split",
     "children": [
       {
-        "id": "81e1955e85161905",
+        "id": "b5ddea45b62c9ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "73a999628dbc9977",
+            "id": "283043d12154877f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "40dcaae988e141da",
+            "id": "a3745705d7771392",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,83 +59,91 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "1f67a45722a567da",
+            "id": "29fc02515055c07d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "8c166575b9c688d0",
+    "id": "c71b2bfa0282c4ed",
     "type": "split",
     "children": [
       {
-        "id": "f4c7c47465a2c9c9",
+        "id": "ae566941fe599619",
         "type": "tabs",
         "children": [
           {
-            "id": "bb1acb1a8870459c",
+            "id": "63a3e65d156ce8ba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PenTestMap.canvas",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
-            "id": "a28f0ad5c1f19570",
+            "id": "1df005303688481e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PenTestMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "244ab0ba494803ac",
+            "id": "381d04a86dd0fce8",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "ffadfebbfba7183a",
+            "id": "83ff8528de7ce7e7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PenTestMap.canvas"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9357a0d41a4a59cb",
+  "active": "e4161e01ba2da8c0",
   "lastOpenFiles": [
     "tools/username-anarchy",
     "tools/social-engineer-toolkit",
