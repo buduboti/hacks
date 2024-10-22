@@ -73,3 +73,6 @@
 [submodule "tools/username-anarchy"]
 	path = tools/username-anarchy
 	url = https://github.com/urbanadventurer/username-anarchy.git
+[submodule "lib/SecList"]
+	path = lib/SecList
+	url = git@github.com:danielmiessler/SecLists.git
