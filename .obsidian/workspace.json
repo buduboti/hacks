@@ -15,9 +15,9 @@
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": 5640.121235127443,
-                  "y": 214.76972382294397,
-                  "zoom": -1.7233333333333287
+                  "x": 1937.631166410603,
+                  "y": 350.3300895975165,
+                  "zoom": -2.766666666666667
                 }
               }
             }
@@ -72,8 +72,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+<<<<<<< HEAD
+    "width": 300
+=======
+    "width": 200
+>>>>>>> b6508401ca6b2fd210afc2f4842a80e3b065c188
   },
   "right": {
     "id": "8c166575b9c688d0",
@@ -134,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,43 +156,46 @@
   },
   "active": "9357a0d41a4a59cb",
   "lastOpenFiles": [
-    "lib/SecList/Passwords/Common-Credentials/Language-Specific/README.md",
-    "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_common-usernames-and-passwords.txt",
-    "lib/SecList/Passwords/Common-Credentials/Language-Specific/Spanish_1000-common-usernames-and-passwords.txt",
-    "lib/SecList/Passwords/Common-Credentials/Language-Specific",
-    "lib/SecList/Fuzzing/XSS/robot-friendly/XSS-Fuzzing.txt",
-    "lib/SecList/Discovery/Web-Content/rssfeed-files.txt",
-    "lib/SecList/Discovery/DNS/services-names.txt",
-    "lib/SecList/Pattern-Matching/php-magic-hashes.txt",
-    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-ukranian-150.txt",
-    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-turkish-150.txt",
-    "lib/SecList/Passwords/Pwdb-Public/Wordlists/Language-Specifics/ignis-thai-150.txt",
-    "lib/SecList/Passwords/Pwdb-Public/README.md",
-    "lib/SecList/Passwords/PHP-Hashes/README.md",
+    "lib/SecList/Web-Shells/Vtiger/languages/en_us/Settings/VtigerVulnPlugin.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/jsp/warfiles/WEB-INF/web.xml",
+    "lib/SecList/Web-Shells/laudanum-1.0/jsp/warfiles/META-INF/MANIFEST.MF",
+    "lib/SecList/Web-Shells/Vtiger/modules/VtigerVulnPlugin/actions/Gateway.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/shell.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/settings.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/proxy.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/php-reverse-shell.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/killnc.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/ipcheck.php",
+    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/host.php",
+    "lib/SecList/Web-Shells/Vtiger/README.md",
+    "lib/SecList/Usernames/README.md",
+    "lib/SecList/SecLists.png",
+    "lib/SecList/README.md",
+    "lib/SecList/Payloads/Images/uber.gif",
+    "lib/SecList/Payloads/Images/lottapixel.jpg",
+    "lib/SecList/Payloads/File-Names/README.md",
+    "lib/SecList/Payloads/README.md",
+    "lib/SecList/Pattern-Matching/grepstrings-auditing-php.md",
+    "lib/SecList/Pattern-Matching/README.md",
     "lib/SecList/Passwords/Default-Credentials/Routers/README.md",
-    "lib/SecList/Miscellaneous/Web/keyhacks-api.md",
-    "lib/SecList/Miscellaneous/Security-Question-Answers/url-to-download-books.md",
-    "lib/SecList/Miscellaneous/List-Of-Swear-Words/README.md",
-    "lib/SecList/Miscellaneous/Danish-Wordlists-n0kovo/README.md",
-    "lib/SecList/Fuzzing/XSS/robot-friendly/README.md",
-    "lib/SecList/Fuzzing/XSS/human-friendly/README.md",
-    "lib/SecList/Fuzzing/XSS/README.md",
-    "lib/SecList/Fuzzing/README.md",
-    "lib/SecList/Ai/LLM_Testing/README.md",
-    "lib/SecList/Miscellaneous/web/keyhacks-api.md",
-    "lib/SecList/Miscellaneous/security-question-answers/url-to-download-books.md",
-    "lib/SecList/Miscellaneous/n0kovo_danish-wordlists/README.md",
-    "lib/SecList/Miscellaneous/Moby-Project/README.md",
+    "lib/SecList/Passwords/Common-Credentials/Language-Specific/README.md",
+    "lib/SecList/Passwords/PHP-Hashes/README.md",
+    "lib/SecList/Passwords/Pwdb-Public/README.md",
+    "lib/SecList/Passwords/Leaked-Databases/README.md",
+    "lib/SecList/Passwords/Keyboard-Walks/README.md",
+    "lib/SecList/Passwords/README.md",
     "lib/SecList/Miscellaneous/Moby-Project/Moby-Words-II/README.md",
     "lib/SecList/Miscellaneous/Moby-Project/Moby-Thesaurus-II/README.md",
     "lib/SecList/Miscellaneous/Moby-Project/Moby-Language-II/README.md",
+    "lib/SecList/Miscellaneous/Web/keyhacks-api.md",
+    "lib/SecList/Miscellaneous/Security-Question-Answers/url-to-download-books.md",
+    "lib/SecList/Miscellaneous/Moby-Project/README.md",
+    "lib/SecList/Miscellaneous/List-Of-Swear-Words/README.md",
     "lib/SecList/Miscellaneous/EFF-Dice/README.md",
-    "obs/pages/gobuster.md",
-    "gobuster.md",
+    "lib/SecList/Miscellaneous/Danish-Wordlists-n0kovo/README.md",
+    "lib/SecList/IOCs/README.md",
+    "lib/SecList/Fuzzing/XSS/robot-friendly/README.md",
     "PenTestMap.canvas",
-    "script/harvester.conf.md",
-    "script/Untitled.md",
-    "script/crt.sh.md",
     "Automation.canvas",
     "PenTestMap 1.canvas"
   ]

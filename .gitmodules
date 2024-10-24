@@ -46,9 +46,6 @@
 [submodule "tools/enum4linux-ng"]
 	path = tools/enum4linux-ng
 	url = https://github.com/cddmp/enum4linux-ng.git
-[submodule "lib/SecList"]
-	path = lib/SecList
-	url = git@github.com:danielmiessler/SecLists.git
 [submodule "tools/odat"]
 	path = tools/odat
 	url = https://github.com/quentinhardy/odat.git
@@ -76,3 +73,6 @@
 [submodule "tools/username-anarchy"]
 	path = tools/username-anarchy
 	url = https://github.com/urbanadventurer/username-anarchy.git
+[submodule "lib/SecList"]
+	path = lib/SecList
+	url = git@github.com:danielmiessler/SecLists.git
