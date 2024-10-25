@@ -76,3 +76,6 @@
 [submodule "lib/SecList"]
 	path = lib/SecList
 	url = git@github.com:danielmiessler/SecLists.git
+[submodule "tools/XSStrike"]
+	path = tools/XSStrike
+	url = https://github.com/s0md3v/XSStrike.git
