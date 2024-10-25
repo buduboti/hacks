@@ -15,9 +15,9 @@
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": 1937.631166410603,
-                  "y": 350.3300895975165,
-                  "zoom": -2.766666666666667
+                  "x": -442.8065997024786,
+                  "y": 4809.67533788851,
+                  "zoom": -0.42666666666666586
                 }
               }
             }
@@ -152,17 +152,17 @@
   },
   "active": "9357a0d41a4a59cb",
   "lastOpenFiles": [
-    "lib/SecList/Web-Shells/Vtiger/languages/en_us/Settings/VtigerVulnPlugin.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/jsp/warfiles/WEB-INF/web.xml",
-    "lib/SecList/Web-Shells/laudanum-1.0/jsp/warfiles/META-INF/MANIFEST.MF",
-    "lib/SecList/Web-Shells/Vtiger/modules/VtigerVulnPlugin/actions/Gateway.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/shell.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/settings.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/proxy.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/php-reverse-shell.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/killnc.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/ipcheck.php",
-    "lib/SecList/Web-Shells/laudanum-1.0/wordpress/templates/host.php",
+    "htb/lab/machines/Codify/scan/gobuster-3000.txt",
+    "htb/lab/machines/Codify/scan/nmap",
+    "htb/lab/machines/Codify/scan/gobuster-80.txt",
+    "htb/lab/machines/Codify/scan",
+    "htb/lab/machines/Codify/notes",
+    "htb/lab/machines/Codify",
+    "htb/lab/machines/Broker/scan/nmap",
+    "htb/lab/machines/Broker/scan/gobuster-8161.txt",
+    "htb/lab/machines/Broker/scan/gobuster-80.txt",
+    "htb/lab/machines/Broker/scan/gobuster-61614.txt",
+    "htb/lab/machines/Broker/scan",
     "lib/SecList/Web-Shells/Vtiger/README.md",
     "lib/SecList/Usernames/README.md",
     "lib/SecList/SecLists.png",
