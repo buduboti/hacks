@@ -21,6 +21,7 @@ TEXT_BOLD_WHITE='\033[1;37m'
 
 declare -a installments=(	"gobuster"
 							"nmap"
+							"sqlmap"
 							"cupp" # no brew support
 							)
 
