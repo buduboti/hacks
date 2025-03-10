@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1ab8250700fb2590",
+        "id": "e1b966ca7cc2645d",
         "type": "tabs",
         "children": [
           {
-            "id": "9357a0d41a4a59cb",
+            "id": "e163595f02cac08a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "PenTestMap.canvas",
                 "viewState": {
-                  "x": -442.8065997024786,
-                  "y": 4809.67533788851,
-                  "zoom": -0.42666666666666586
+                  "x": 4198.28982834636,
+                  "y": 3594.1158670777068,
+                  "zoom": -0.8987204834964058
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "PenTestMap"
             }
           }
         ]
@@ -41,8 +43,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -51,13 +56,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -65,18 +72,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 300
-=======
     "width": 200
->>>>>>> b6508401ca6b2fd210afc2f4842a80e3b065c188
   },
   "right": {
     "id": "8c166575b9c688d0",
@@ -100,7 +105,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for PenTestMap"
             }
           },
           {
@@ -112,7 +119,9 @@
                 "file": "PenTestMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PenTestMap"
             }
           },
           {
@@ -122,8 +131,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,12 +145,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PenTestMap.canvas"
-              }
+                "file": "PenTestMap.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PenTestMap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,19 +171,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9357a0d41a4a59cb",
+  "active": "e163595f02cac08a",
   "lastOpenFiles": [
+    "Cheatsheets/SMB.pdf",
+    "PenTestMap.canvas",
+    "tools/odat/README.md",
+    "Services/SMB.md",
+    "remote-tools/enum/pspy_README.md",
+    "obs/Workflows/PrivEsc (linux).canvas",
+    "obs/Workflows/Web App Workflow.canvas",
+    "Auth_process1.webp",
+    "README.md",
+    "Untitled.canvas",
+    "Services",
+    "1) FTP.md",
+    "SMB-Access-from-Linux 1.pdf",
+    "Cheatsheets/SMB.md",
+    "C",
+    "Cheatsheets",
+    "2025-02-10.md",
+    "tools/XSStrike",
     "htb/lab/machines/Codify/scan/gobuster-3000.txt",
     "htb/lab/machines/Codify/scan/nmap",
     "htb/lab/machines/Codify/scan/gobuster-80.txt",
     "htb/lab/machines/Codify/scan",
-    "htb/lab/machines/Codify/notes",
-    "htb/lab/machines/Codify",
-    "htb/lab/machines/Broker/scan/nmap",
-    "htb/lab/machines/Broker/scan/gobuster-8161.txt",
-    "htb/lab/machines/Broker/scan/gobuster-80.txt",
-    "htb/lab/machines/Broker/scan/gobuster-61614.txt",
-    "htb/lab/machines/Broker/scan",
     "lib/SecList/Web-Shells/Vtiger/README.md",
     "lib/SecList/Usernames/README.md",
     "lib/SecList/SecLists.png",
@@ -188,14 +216,6 @@
     "lib/SecList/Miscellaneous/Moby-Project/Moby-Thesaurus-II/README.md",
     "lib/SecList/Miscellaneous/Moby-Project/Moby-Language-II/README.md",
     "lib/SecList/Miscellaneous/Web/keyhacks-api.md",
-    "lib/SecList/Miscellaneous/Security-Question-Answers/url-to-download-books.md",
-    "lib/SecList/Miscellaneous/Moby-Project/README.md",
-    "lib/SecList/Miscellaneous/List-Of-Swear-Words/README.md",
-    "lib/SecList/Miscellaneous/EFF-Dice/README.md",
-    "lib/SecList/Miscellaneous/Danish-Wordlists-n0kovo/README.md",
-    "lib/SecList/IOCs/README.md",
-    "lib/SecList/Fuzzing/XSS/robot-friendly/README.md",
-    "PenTestMap.canvas",
     "Automation.canvas",
     "PenTestMap 1.canvas"
   ]

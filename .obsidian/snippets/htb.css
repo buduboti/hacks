@@ -6,7 +6,9 @@
 	color: #9FEF00;
 }
 
-.markdown-view code {
+/* .markdown-view code { */
+:not(pre) > code,
+.cm-inline-code {
 	color: #9FEF00;
 }
 
@@ -28,4 +30,9 @@ a:hover {
 a:active {
 	text-decoration: underline;
 	color: #0064BD;
+}
+
+.markdown-source-view, .markdown-preview-view {
+	max-width: 1200px;
+	margin: auto;
 }

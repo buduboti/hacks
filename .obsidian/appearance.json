@@ -1,4 +1,6 @@
 {
-  "accentColor": "",
-  "enabledCssSnippets": []
+  "accentColor": "#66f55c",
+  "enabledCssSnippets": [
+    "htb"
+  ]
 }
