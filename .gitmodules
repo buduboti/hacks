@@ -175,3 +175,9 @@
 [submodule "share/SeBackupPrivilege"]
 	path = share/SeBackupPrivilege
 	url = git@github.com:giuliano108/SeBackupPrivilege.git
+[submodule "htb/lab/Facts/CVE-2024-46987"]
+	path = htb/lab/Facts/CVE-2024-46987
+	url = git@github.com:Goultarde/CVE-2024-46987.git
+[submodule "htb/lab/Facts/CVE-2024-46986"]
+	path = htb/lab/Facts/CVE-2024-46986
+	url = git@github.com:vidura2/CVE-2024-46986.git
