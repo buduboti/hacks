@@ -79,3 +79,96 @@
 [submodule "tools/XSStrike"]
 	path = tools/XSStrike
 	url = https://github.com/s0md3v/XSStrike.git
+[submodule "tools/mimipenguin"]
+	path = tools/mimipenguin
+	url = https://github.com/huntergregal/mimipenguin.git
+[submodule "tools/firefox_decrypt"]
+	path = tools/firefox_decrypt
+	url = https://github.com/unode/firefox_decrypt.git
+[submodule "tools/smbv2attack"]
+	path = tools/smbv2attack
+	url = https://github.com/hatlord/smbv2attack.git
+[submodule "tools/fierce"]
+	path = tools/fierce
+	url = https://github.com/mschwager/fierce.git
+[submodule "tools/subfinder"]
+	path = tools/subfinder
+	url = https://github.com/projectdiscovery/subfinder.git
+[submodule "tools/subbrute"]
+	path = tools/subbrute
+	url = https://github.com/TheRook/subbrute.git
+[submodule "tools/smtp-user-enum"]
+	path = tools/smtp-user-enum
+	url = https://github.com/pentestmonkey/smtp-user-enum.git
+[submodule "tools/o365spray"]
+	path = tools/o365spray
+	url = https://github.com/0xZDH/o365spray.git
+[submodule "tools/KeyTabExtract"]
+	path = tools/KeyTabExtract
+	url = https://github.com/sosdave/KeyTabExtract.git
+[submodule "remote-tools/lilikatz"]
+	path = remote-tools/lilikatz
+	url = https://github.com/CiscoCXSecurity/linikatz
+[submodule "tools/chisel"]
+	path = tools/chisel
+	url = https://github.com/jpillora/chisel.git
+[submodule "tools/rpivot"]
+	path = tools/rpivot
+	url = https://github.com/klsecservices/rpivot.git
+[submodule "tools/dnscat2"]
+	path = tools/dnscat2
+	url = https://github.com/iagox86/dnscat2.git
+[submodule "tools/dnscat2-powershell"]
+	path = tools/dnscat2-powershell
+	url = https://github.com/lukebaggett/dnscat2-powershell.git
+[submodule "tools/chisel.git"]
+	path = tools/chisel.git
+	url = https://github.com/jpillora/chisel.git
+[submodule "tools/ptunnel-ng"]
+	path = tools/ptunnel-ng
+	url = https://github.com/utoni/ptunnel-ng.git
+[submodule "tools/kerbrute"]
+	path = tools/kerbrute
+	url = git@github.com:ropnop/kerbrute.git
+[submodule "tools/PCredz"]
+	path = tools/PCredz
+	url = https://github.com/lgandx/PCredz.git
+[submodule "tools/Bashfuscator"]
+	path = tools/Bashfuscator
+	url = https://github.com/Bashfuscator/Bashfuscator
+[submodule "tools/Invoke-DOSfuscation.git"]
+	path = tools/Invoke-DOSfuscation.git
+	url = https://github.com/danielbohannon/Invoke-DOSfuscation.git
+[submodule "tools/cve/joomla-core-1.5.0-3.9.4"]
+	path = tools/cve/joomla-core-1.5.0-3.9.4
+	url = https://github.com/dpgg101/CVE-2019-10945.git
+[submodule "remote-tools/web/splunk/rce"]
+	path = remote-tools/web/splunk/rce
+	url = https://github.com/0xjpuff/reverse_shell_splunk.git
+[submodule "tools/impacket"]
+	path = tools/impacket
+	url = https://github.com/fortra/impacket.git
+[submodule "tools/noPac"]
+	path = tools/noPac
+	url = https://github.com/Ridter/noPac.git
+[submodule "tools/NetNTLMtoSilverTicket"]
+	path = tools/NetNTLMtoSilverTicket
+	url = git@github.com:NotMedic/NetNTLMtoSilverTicket.git
+[submodule "tools/adidnsdump"]
+	path = tools/adidnsdump
+	url = git@github.com:dirkjanm/adidnsdump.git
+[submodule "tools/Rubeus"]
+	path = tools/Rubeus
+	url = git@github.com:GhostPack/Rubeus.git
+[submodule "remote-tools/PowerTools"]
+	path = remote-tools/PowerTools
+	url = git@github.com:PowerShellEmpire/PowerTools.git
+[submodule "remote-tools/PowerUpSQL"]
+	path = remote-tools/PowerUpSQL
+	url = git@github.com:NetSPI/PowerUpSQL.git
+[submodule "remote-tools/Responder-Windows"]
+	path = remote-tools/Responder-Windows
+	url = git@github.com:lgandx/Responder-Windows.git
+[submodule "tools/cve/CVE-2021-1675"]
+	path = tools/cve/CVE-2021-1675
+	url = https://github.com/cube0x0/CVE-2021-1675.git

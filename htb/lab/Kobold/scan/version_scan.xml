@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sun Mar 22 23:44:25 2026 as: /usr/lib/nmap/nmap -&#45;privileged -oA ./scan/version_scan -p22,80,443,3552 -sC -sV -Pn 10.129.18.32 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -oA ./scan/version_scan -p22,80,443,3552 -sC -sV -Pn 10.129.18.32" start="1774215865" startstr="Sun Mar 22 23:44:25 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="4" services="22,80,443,3552"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1774215866" endtime="1774215902"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.18.32" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="9.6p1 Ubuntu 3ubuntu13.15" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 8c:45:12:36:03:61:de:0f:0b:2b:c3:9b:2a:92:59:a1 (ECDSA)&#xa;  256 d2:3c:bf:ed:55:4a:52:13:b5:34:d2:fb:8f:e4:93:bd (ED25519)"><table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDyfTq7atQNY2qg78Nt+Q/rowZnmsZ0+vG+FraL750n57MCUNo0a/hw/Df2XfLKPUGiVIVYmQTraVft8Xv2AjYk=</elem>
+<elem key="fingerprint">8c4512360361de0f0b2bc39b2a9259a1</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIHDfvijaU/WiU8D/im7cOg8k4NeAOUgCHq16HhCbmZcI</elem>
+<elem key="fingerprint">d23cbfed554a5213b534d2fb8fe493bd</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.24.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.24.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-title" output="Did not follow redirect to https://kobold.htb/"><elem key="redirect_url">https://kobold.htb/</elem>
+</script><script id="http-server-header" output="nginx/1.24.0 (Ubuntu)"><elem>nginx/1.24.0 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.24.0" extrainfo="Ubuntu" ostype="Linux" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.24.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="ssl-cert" output="Subject: commonName=kobold.htb&#xa;Subject Alternative Name: DNS:kobold.htb, DNS:*.kobold.htb&#xa;Not valid before: 2026-03-15T15:08:55&#xa;Not valid after:  2125-02-19T15:08:55"><table key="subject">
+<elem key="commonName">kobold.htb</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">kobold.htb</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">9F07561565E39B812584701100A6CC01171AA24C2BA5A9E4139E6922C3E8A263B929D62CEB39BCA4EDA47BE196E9699F0A9AECF9938945218D8E36D53DAC9F628D45C0852B234C27D26EEA549E8A363AA10D831040FCD900BFD475FA3B65ED2547F9256AC6AEBD64AEB4BAC2B1D2AC4693C00D2F830AC99557FF4CEF94DB5327BF75B594072DCBB18C7E77A13ABCF4CD60DF623341FC9B8E58711975120300B52271A31482C45E64398168B1FBA8C0414BB12277D6B5E58348534150DBDEEE7DA8B8DAB0F6AC30277461BE7A1E9EAE2E8360C5667DF05E71B3AC8787EF2E2E0F4D793776F3BEEFE167C7C607098B464C4BF593F47AA3FFB14172EC19BA10E4FD</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">61:6D:1D:FB:FE:F4:43:33:A9:9B:92:AF:2A:EE:03:8D:55:B5:30:19</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">61:6D:1D:FB:FE:F4:43:33:A9:9B:92:AF:2A:EE:03:8D:55:B5:30:19</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:TRUE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:kobold.htb, DNS:*.kobold.htb</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2026-03-15T15:08:55</elem>
+<elem key="notAfter">2125-02-19T15:08:55</elem>
+</table>
+<elem key="md5">c49ec4d5d4a0e47300bc8df8cc0098ac</elem>
+<elem key="sha1">a2311d00d15b2007eff5957d0561265abb906906</elem>
+<elem key="sha256">03952d402b1f22456092f0071ae76c6d34d90ae3c04f271ddb928907e4e3acfe</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDMjCCAhqgAwIBAgIUYYWyqxUgK9B/KXzRH5Qhz8UlYxkwDQYJKoZIhvcNAQEL&#xa;BQAwFTETMBEGA1UEAwwKa29ib2xkLmh0YjAgFw0yNjAzMTUxNTA4NTVaGA8yMTI1&#xa;MDIxOTE1MDg1NVowFTETMBEGA1UEAwwKa29ib2xkLmh0YjCCASIwDQYJKoZIhvcN&#xa;AQEBBQADggEPADCCAQoCggEBAJ8HVhVl45uBJYRwEQCmzAEXGqJMK6Wp5BOeaSLD&#xa;6KJjuSnWLOs5vKTtpHvhlulpnwqa7PmTiUUhjY421T2sn2KNRcCFKyNMJ9Ju6lSe&#xa;ijY6oQ2DEED82QC/1HX6O2XtJUf5JWrGrr1krrS6wrHSrEaTwA0vgwrJlVf/TO+U&#xa;21Mnv3W1lActy7GMfnehOrz0zWDfYjNB/JuOWHEZdRIDALUicaMUgsReZDmBaLH7&#xa;qMBBS7Eid9a15YNIU0FQ297ufai42rD2rDAndGG+eh6eri6DYMVmffBecbOsh4fv&#xa;Li4PTXk3dvO+7+Fnx8YHCYtGTEv1k/R6o/+xQXLsGboQ5P0CAwEAAaN4MHYwHQYD&#xa;VR0OBBYEFGFtHfv+9EMzqZuSryruA41VtTAZMB8GA1UdIwQYMBaAFGFtHfv+9EMz&#xa;qZuSryruA41VtTAZMA8GA1UdEwEB/wQFMAMBAf8wIwYDVR0RBBwwGoIKa29ib2xk&#xa;Lmh0YoIMKi5rb2JvbGQuaHRiMA0GCSqGSIb3DQEBCwUAA4IBAQCQybOVM+Zo5MTb&#xa;QY/24rWy1ksAuiUqPHCABNprilPvsvBGkIMC6aSLqzR8UXm+4aQzBxNlHsePvkzu&#xa;suuQKAoyCbnId0qii6a1vzeozgIOt+1oqfxFe7mRAiLhboSctFqScC6dy/PDEIOg&#xa;bt+gLfU5iKsjqTQBxcWZr4uj7DtWbRC73OITWSSi/Y/AI66o5VHIUhnJ29gOEJVw&#xa;5Bv43Iublt2FBH/S6fiz509tJAsqLhp1kmxIAWrV92rBZPSpF4s2xWRbWefZPm7L&#xa;fstlVNlXRrBnPz8iN8JrlpZLmZCUQ+BjMUXjqS27LS9Dl/3agD/F2gNuSho/s1F8&#xa;TI93TWcE&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="http-title" output="Did not follow redirect to https://kobold.htb/"><elem key="redirect_url">https://kobold.htb/</elem>
+</script><script id="tls-alpn" output="&#xa;  http/1.1&#xa;  http/1.0&#xa;  http/0.9"><elem>http/1.1</elem>
+<elem>http/1.0</elem>
+<elem>http/0.9</elem>
+</script><script id="http-server-header" output="nginx/1.24.0 (Ubuntu)"><elem>nginx/1.24.0 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="3552"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Golang net/http server" servicefp="SF-Port3552-TCP:V=7.98%I=7%D=3/22%Time=69C062C0%P=x86_64-pc-linux-gnu%r(GenericLines,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;)%r(GetRequest,8FF,&quot;HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate\r\nContent-Length:\x202081\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nExpires:\x200\r\nPragma:\x20no-cache\r\nDate:\x20Sun,\x2022\x20Mar\x202026\x2021:44:32\x20GMT\r\n\r\n&lt;!doctype\x20html&gt;\n&lt;html\x20lang=\&quot;%lang%\&quot;&gt;\n\t&lt;head&gt;\n\t\t&lt;meta\x20charset=\&quot;utf-8\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Cache-Control\&quot;\x20content=\&quot;no-cache,\x20no-store,\x20must-revalidate\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Pragma\&quot;\x20content=\&quot;no-cache\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Expires\&quot;\x20content=\&quot;0\&quot;\x20/&gt;\n\t\t&lt;link\x20rel=\&quot;icon\&quot;\x20href=\&quot;/api/app-images/favicon\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;viewport\&quot;\x20content=\&quot;width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20viewport-fit=cover\&quot;\x20/&gt;\n\t\t&lt;link\x20rel=\&quot;manifest\&quot;\x20href=\&quot;/app\.webmanifest\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;theme-color\&quot;\x20content=\&quot;oklch\(1\x200\x200\)\&quot;\x20media=\&quot;\(prefers-color-scheme:\x20light\)\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;theme-color\&quot;\x20content=\&quot;oklch\(0\.141\x200\.005\x20285\.823\)\&quot;\x20media=\&quot;\(prefers-color-scheme:\x20dark\)\&quot;\x20/&gt;\n\t\t\n\t\t&lt;link\x20rel=\&quot;modu&quot;)%r(HTTPOptions,8FF,&quot;HTTP/1\.0\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate\r\nContent-Length:\x202081\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nExpires:\x200\r\nPragma:\x20no-cache\r\nDate:\x20Sun,\x2022\x20Mar\x202026\x2021:44:32\x20GMT\r\n\r\n&lt;!doctype\x20html&gt;\n&lt;html\x20lang=\&quot;%lang%\&quot;&gt;\n\t&lt;head&gt;\n\t\t&lt;meta\x20charset=\&quot;utf-8\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Cache-Control\&quot;\x20content=\&quot;no-cache,\x20no-store,\x20must-revalidate\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Pragma\&quot;\x20content=\&quot;no-cache\&quot;\x20/&gt;\n\t\t&lt;meta\x20http-equiv=\&quot;Expires\&quot;\x20content=\&quot;0\&quot;\x20/&gt;\n\t\t&lt;link\x20rel=\&quot;icon\&quot;\x20href=\&quot;/api/app-images/favicon\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;viewport\&quot;\x20content=\&quot;width=device-width,\x20initial-scale=1,\x20maximum-scale=1,\x20viewport-fit=cover\&quot;\x20/&gt;\n\t\t&lt;link\x20rel=\&quot;manifest\&quot;\x20href=\&quot;/app\.webmanifest\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;theme-color\&quot;\x20content=\&quot;oklch\(1\x200\x200\)\&quot;\x20media=\&quot;\(prefers-color-scheme:\x20light\)\&quot;\x20/&gt;\n\t\t&lt;meta\x20name=\&quot;theme-color\&quot;\x20content=\&quot;oklch\(0\.141\x200\.005\x20285\.823\)\&quot;\x20media=\&quot;\(prefers-color-scheme:\x20dark\)\&quot;\x20/&gt;\n\t\t\n\t\t&lt;link\x20rel=\&quot;modu&quot;);" method="probed" conf="10"><cpe>cpe:/a:golang:go</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/html; charset=utf-8)."></script><script id="fingerprint-strings" output="&#xa;  GenericLines: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request&#xa;  GetRequest, HTTPOptions: &#xa;    HTTP/1.0 200 OK&#xa;    Accept-Ranges: bytes&#xa;    Cache-Control: no-cache, no-store, must-revalidate&#xa;    Content-Length: 2081&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Expires: 0&#xa;    Pragma: no-cache&#xa;    Date: Sun, 22 Mar 2026 21:44:32 GMT&#xa;    &lt;!doctype html&gt;&#xa;    &lt;html lang=&quot;%lang%&quot;&gt;&#xa;    &lt;head&gt;&#xa;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-cache, no-store, must-revalidate&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot; /&gt;&#xa;    &lt;link rel=&quot;icon&quot; href=&quot;/api/app-images/favicon&quot; /&gt;&#xa;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover&quot; /&gt;&#xa;    &lt;link rel=&quot;manifest&quot; href=&quot;/app.webmanifest&quot; /&gt;&#xa;    &lt;meta name=&quot;theme-color&quot; content=&quot;oklch(1 0 0)&quot; media=&quot;(prefers-color-scheme: light)&quot; /&gt;&#xa;    &lt;meta name=&quot;theme-color&quot; content=&quot;oklch(0.141 0.005 285.823)&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;&#xa;    &lt;link rel=&quot;modu"><elem key="GenericLines">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request</elem>
+<elem key="GetRequest, HTTPOptions">&#xa;    HTTP/1.0 200 OK&#xa;    Accept-Ranges: bytes&#xa;    Cache-Control: no-cache, no-store, must-revalidate&#xa;    Content-Length: 2081&#xa;    Content-Type: text/html; charset=utf-8&#xa;    Expires: 0&#xa;    Pragma: no-cache&#xa;    Date: Sun, 22 Mar 2026 21:44:32 GMT&#xa;    &lt;!doctype html&gt;&#xa;    &lt;html lang=&quot;%lang%&quot;&gt;&#xa;    &lt;head&gt;&#xa;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-cache, no-store, must-revalidate&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot; /&gt;&#xa;    &lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot; /&gt;&#xa;    &lt;link rel=&quot;icon&quot; href=&quot;/api/app-images/favicon&quot; /&gt;&#xa;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover&quot; /&gt;&#xa;    &lt;link rel=&quot;manifest&quot; href=&quot;/app.webmanifest&quot; /&gt;&#xa;    &lt;meta name=&quot;theme-color&quot; content=&quot;oklch(1 0 0)&quot; media=&quot;(prefers-color-scheme: light)&quot; /&gt;&#xa;    &lt;meta name=&quot;theme-color&quot; content=&quot;oklch(0.141 0.005 285.823)&quot; media=&quot;(prefers-color-scheme: dark)&quot; /&gt;&#xa;    &lt;link rel=&quot;modu</elem>
+</script></port>
+</ports>
+<times srtt="55041" rttvar="37198" to="203833"/>
+</host>
+<runstats><finished time="1774215902" timestr="Sun Mar 22 23:45:02 2026" summary="Nmap done at Sun Mar 22 23:45:02 2026; 1 IP address (1 host up) scanned in 36.82 seconds" elapsed="36.82" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

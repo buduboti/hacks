@@ -1,0 +1,63 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "A URL to the JSON Schema for this object.",
+      "examples": [
+        "http://localhost:3552/api/schemas/VersionInfo.json"
+      ],
+      "format": "uri",
+      "readOnly": true,
+      "type": "string"
+    },
+    "buildTime": {
+      "type": "string"
+    },
+    "currentDigest": {
+      "type": "string"
+    },
+    "currentTag": {
+      "type": "string"
+    },
+    "currentVersion": {
+      "type": "string"
+    },
+    "displayVersion": {
+      "type": "string"
+    },
+    "goVersion": {
+      "type": "string"
+    },
+    "isSemverVersion": {
+      "type": "boolean"
+    },
+    "newestDigest": {
+      "type": "string"
+    },
+    "newestVersion": {
+      "type": "string"
+    },
+    "releaseUrl": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "string"
+    },
+    "shortRevision": {
+      "type": "string"
+    },
+    "updateAvailable": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "currentVersion",
+    "revision",
+    "shortRevision",
+    "goVersion",
+    "displayVersion",
+    "isSemverVersion",
+    "updateAvailable"
+  ],
+  "type": "object"
+}

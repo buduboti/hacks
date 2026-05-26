@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Sun Mar 22 23:44:25 2026 as: /usr/lib/nmap/nmap --privileged -oA ./scan/version_scan -p22,80,443,3552 -sC -sV -Pn 10.129.18.32
+Host: 10.129.18.32 ()	Status: Up
+Host: 10.129.18.32 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.6p1 Ubuntu 3ubuntu13.15 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.24.0 (Ubuntu)/, 443/open/tcp//ssl|http//nginx 1.24.0 (Ubuntu)/, 3552/open/tcp//http//Golang net|http server/
+# Nmap done at Sun Mar 22 23:45:02 2026 -- 1 IP address (1 host up) scanned in 36.82 seconds
