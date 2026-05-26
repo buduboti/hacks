@@ -172,3 +172,6 @@
 [submodule "tools/cve/CVE-2021-1675"]
 	path = tools/cve/CVE-2021-1675
 	url = https://github.com/cube0x0/CVE-2021-1675.git
+[submodule "share/SeBackupPrivilege"]
+	path = share/SeBackupPrivilege
+	url = git@github.com:giuliano108/SeBackupPrivilege.git
